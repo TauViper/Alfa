@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    height: 35px;
+    background: #888888;
+
+    & label {
+        margin-right: 10px;
+        font-size: 15px;
+        color: white;
+    }
+
+    & select {
+        height: 25px;
+        font-size: 15px;
+    }
+
+    & option {
+        font-size: 15px;
+    }
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 85px;
+    height: 25px;
+    background: white;
+
+}
